@@ -59,10 +59,11 @@
 
 							{* Search form *}
 							{if $currentContext && $requestedPage !== 'search'}
-								<div class="pkp_navigation_search_wrapper">
-									<a href="{url page="search"}" class="pkp_search pkp_search_desktop">
-										<span class="fa fa-search" aria-hidden="true"></span>
-										{translate key="common.search"}
+								<div class="">
+									<a href="{url page="search"}" class="topbar-icon">
+                  <svg style="width:20px; height:20px" class="topbar-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+</svg>
 									</a>
 								</div>
 							{/if}
